@@ -1,0 +1,64 @@
+/* Font */
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page centering */
+#page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Grid styling */
+#game-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 400px;
+    height: 400px;
+}
+
+.box {
+    display: grid;
+    place-items: center;
+    font-size: 7rem;
+    border: 5px solid black;
+}
+
+#box1 {
+    border-style: none solid solid none;
+}
+
+#box2 {
+    border-style: none solid solid solid;
+}
+
+#box3 {
+    border-style: none none solid solid;
+}
+
+#box4 {
+    border-style: solid solid solid none;
+}
+
+#box5 {
+    border-style: solid solid solid solid;
+}
+
+#box6 {
+    border-style: solid none solid solid;
+}
+
+#box7 {
+    border-style: solid solid none none;
+}
+
+#box8 {
+    border-style: solid solid none solid;
+}
+
+#box9 {
+    border-style: solid none none solid;
+}
