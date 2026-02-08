@@ -64,9 +64,24 @@ main {
 }
 
 /* Media queries */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     #game-grid {
         width: 90vw;
         height: 90vw;
+    }
+
+    .box {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #game-grid {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .box {
+        font-size: 4rem;
     }
 }
