@@ -23,7 +23,7 @@ main {
 .box {
     display: grid;
     place-items: center;
-    font-size: 7rem;
+    font-size: 6rem;
     border: 5px solid black;
 }
 
@@ -61,4 +61,12 @@ main {
 
 #box9 {
     border-style: solid none none solid;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    #game-grid {
+        width: 90vw;
+        height: 90vw;
+    }
 }
